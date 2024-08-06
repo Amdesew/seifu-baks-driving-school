@@ -1,0 +1,45 @@
+.center{
+  display: block;
+  margin: auto;
+  text-align: center
+}
+
+.card-style{
+  width: 12rem;
+}
+
+.footers{
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.form{
+  width: 60%;
+  border-color: white;
+}
+
+
+
+.col:hover{
+  transform: rotateY(320deg);
+  transition-duration: 1.5s;
+  border-color: white;
+}
+
+.box{
+  gap: 50px;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+  h5{
+    display: none;
+  }
+
+  p{
+    display: none;
+  }
+}
