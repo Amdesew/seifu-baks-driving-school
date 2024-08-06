@@ -11,7 +11,7 @@ export default function Home() {
     await getDjangoAPIData()
   }
   return (
-    <div>
+    <div style={{gap: "50px"}}>
       <div id="carouselExample" className="carousel slide">
         <div className="carousel-inner">
           <div className="carousel-item active">
