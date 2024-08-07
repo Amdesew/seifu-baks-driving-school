@@ -17,7 +17,16 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+          <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+            integrity="sha384-B4gt1jrGC7Jh4Agf6g9Qbg3P0E4Wl7lTwOOGX1D3GaPU6pLFxT4vHgJBRXtv4j2K"
+            crossOrigin="anonymous"
+          />
+      </head>
       <body className={inter.className}>
+
       <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossOrigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossOrigin="anonymous"></script>
         
