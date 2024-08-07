@@ -41,12 +41,12 @@ export default function RootLayout({
                     <a className="nav-link active" aria-current="page" href="/">Home</a>
                   </li>
                   <li className="nav-item">
-                    <Link href="/webpages" passHref>  
+                    <Link href="/webpages">  
                       <a className="nav-link">Fuel Form</a>
                     </Link> 
                   </li>
                   <li className="nav-item">
-                    <Link href="/webpages/oilform" passHref> 
+                    <Link href="/webpages/oilform"> 
                       <a className="nav-link">Oil Form</a>
                     </Link>
                   </li>
