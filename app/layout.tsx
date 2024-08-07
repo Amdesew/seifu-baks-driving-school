@@ -30,7 +30,7 @@ export default function RootLayout({
       <nav className ="navbar navbar-expand-lg bg-body-tertiary">
         <div className ="container-fluid">
               <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ6ApFXqU1S0rGVn-UJwHAUqB_iMiBQrohng&s" alt="Bootstrap" width="50" height="50"/>
-              <a className ="navbar-brand" href="/">Seifu Baks Driving School</a>
+              <a className ="navbar-brand" href="/"><center>Seifu Baks Driving School</center></a>
               <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
               </button>
