@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import  "bootstrap/dist/css/bootstrap.min.css"
+import Link from "next/link";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -40,10 +41,14 @@ export default function RootLayout({
                     <a className="nav-link active" aria-current="page" href="/">Home</a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="/webpages">Fuel Form</a>
+                    <Link href="/webpages" passHref>  
+                      <a className="nav-link">Fuel Form</a>
+                    </Link> 
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="/webpages/oilform">Oil Form</a>
+                    <Link href="/webpages/oilform" passHref> 
+                      <a className="nav-link">Oil Form</a>
+                    </Link>
                   </li>
                   <li className="nav-item">
                     <a className="nav-link" href="/#">Student Files</a>
