@@ -4,7 +4,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 
-const API_URL = "http://127.0.0.1:8000/api/oil/";
+const API_URL = "https://amdesew.pythonanywhere.com/api/oil/";
 
 const Form: React.FC = () => {
   const [place, setPlace] = useState('');
