@@ -40,15 +40,11 @@ export default function RootLayout({
                   <li className="nav-item">
                     <a className="nav-link active" aria-current="page" href="/">Home</a>
                   </li>
-                  <li className="nav-item">
-                    <Link href="/webpages">  
-                      <a className="nav-link">Fuel Form</a>
-                    </Link> 
+                  <li className="nav-item">                     
+                    <a className="nav-link" href="/webpages">Fuel Form</a>
                   </li>
-                  <li className="nav-item">
-                    <Link href="/webpages/oilform"> 
-                      <a className="nav-link">Oil Form</a>
-                    </Link>
+                  <li className="nav-item">                    
+                    <a className="nav-link" href="/webpages/oilform">Oil Form</a>                    
                   </li>
                   <li className="nav-item">
                     <a className="nav-link" href="/#">Student Files</a>
