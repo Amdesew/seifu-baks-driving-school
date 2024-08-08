@@ -59,8 +59,8 @@ export default function Home() {
           <div className="card-body">
             <h5 className="card-title">Fuel Form</h5>
             <p className="card-text">Everytime a fuel is filled in to the cars, employes need to inform the organization.</p>
-            <Link href="/pages/fuel">
-              <a className="btn btn-primary">Fuel Form</a>
+            <Link href="/pages/fuel" className="btn btn-primary">
+              Fuel Form
             </Link>
           </div>       
         </div>
