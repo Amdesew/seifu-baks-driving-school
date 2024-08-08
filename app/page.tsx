@@ -59,7 +59,7 @@ export default function Home() {
           <div className="card-body">
             <h5 className="card-title">Fuel Form</h5>
             <p className="card-text">Everytime a fuel is filled in to the cars, employes need to inform the organization.</p>
-            <a href="/webpages" className="btn btn-primary">Fuel Form</a>
+            <a href="/pages/fuel" className="btn btn-primary">Fuel Form</a>
           </div>       
         </div>
       
@@ -69,7 +69,7 @@ export default function Home() {
           <div className="card-body">
             <h5 className="card-title">Oil Changing Form</h5>
             <p className="card-text">Everytime an oil is changed, employes need to inform the organization.</p>
-            <a href="/webpages/oilform" className="btn btn-primary">Oil Form</a>
+            <a href="/pages/oilform" className="btn btn-primary">Oil Form</a>
           </div>
         </div>
         
