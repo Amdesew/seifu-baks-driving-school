@@ -1,7 +1,7 @@
 "use client"
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import Link from 'next/link';
 
 
 
@@ -59,7 +59,9 @@ export default function Home() {
           <div className="card-body">
             <h5 className="card-title">Fuel Form</h5>
             <p className="card-text">Everytime a fuel is filled in to the cars, employes need to inform the organization.</p>
-            <a href="/pages/fuel" className="btn btn-primary">Fuel Form</a>
+            <Link href="/pages/fuel">
+              <a className="btn btn-primary">Fuel Form</a>
+            </Link>
           </div>       
         </div>
       
