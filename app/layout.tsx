@@ -30,7 +30,7 @@ export default function RootLayout({
         
       <nav className ="navbar navbar-expand-lg bg-body-tertiary">
         <div className ="container-fluid">
-              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ6ApFXqU1S0rGVn-UJwHAUqB_iMiBQrohng&s" alt="Bootstrap" width="50" height="50"/>
+              <img className="ico" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ6ApFXqU1S0rGVn-UJwHAUqB_iMiBQrohng&s" alt="Bootstrap" width="50" height="50"/>
               <a className ="navbar-brand center" href="/">Seifu Baks Driving School</a>
               <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
@@ -41,10 +41,10 @@ export default function RootLayout({
                     <a className="nav-link active" aria-current="page" href="/">Home</a>
                   </li>
                   <li className="nav-item">                     
-                    <a className="nav-link" href="/webpages">Fuel Form</a>
+                    <a className="nav-link" href="/pages/fuel">Fuel Form</a>
                   </li>
                   <li className="nav-item">                    
-                    <a className="nav-link" href="/webpages/oilform">Oil Form</a>                    
+                    <a className="nav-link" href="/pages/oilform">Oil Form</a>                    
                   </li>
                   <li className="nav-item">
                     <a className="nav-link" href="/#">Student Files</a>
@@ -60,12 +60,13 @@ export default function RootLayout({
         
         {children}
 
+
         <footer className="bg-body-tertiary text-center text-lg-start">
           <div className="text-center p-3 footers">
             <h4 className="text-body">©️Seifu Baks Driving School (2024)</h4>
           </div>
         </footer>
-        
+
         </body>
     </html>
   );

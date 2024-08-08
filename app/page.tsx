@@ -49,7 +49,7 @@ export default function Home() {
 
         <br/>
       <div className='center'>
-        <h1>Seifu Baks Driving School </h1>
+        <h1 className='center'>Seifu Baks Driving School </h1>
       </div>
 
       <br/>

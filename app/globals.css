@@ -39,7 +39,24 @@ a{
     display: none;
   }
 
+  .ico{
+    display: none;
+  }
+
   p{
     display: none;
+  }
+
+  
+  .box{
+    display: flex;
+    align-items: flex;
+    flex-direction: column;
+  }
+
+  .box img{
+    display: flex;
+    width: 40%;
+    margin: auto;
   }
 }
