@@ -83,13 +83,6 @@ export default function Home() {
         </div>
 
 
-        <footer className="bg-body-tertiary text-center text-lg-start">
-          <div className="text-center p-3 footers">
-            <h4 className="text-body">©️Seifu Baks Driving School (2024)</h4>
-          </div>
-        </footer>
-
-
       </div>
     </div>
   );
